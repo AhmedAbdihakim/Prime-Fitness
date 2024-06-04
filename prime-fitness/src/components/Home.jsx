@@ -1,4 +1,4 @@
-import React from "react";
+import hero from "../assets/gym-hero.png";
 
 const Home = () => {
   return (
@@ -36,7 +36,7 @@ const Home = () => {
       </section>
 
       <aside className="hidden md:flex items-center justify-center">
-        <img src="/gym-hero.png" alt="hero" className="h-10/12" />
+        <img src={hero} alt="hero" className="h-10/12" />
       </aside>
     </div>
   );

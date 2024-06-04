@@ -1,27 +1,34 @@
+import photo1 from "../assets/GymPhoto-1.jpg";
+import photo2 from "../assets/GymPhoto-2.jpg";
+import photo3 from "../assets/GymPhoto-3.jpg";
+import photo4 from "../assets/GymPhoto-4.jpg";
+import photo5 from "../assets/GymPhoto-5.jpg";
+import photo6 from "../assets/GymPhoto-6.jpg";
+
 const Gallery = () => {
   const galleryItems = [
     {
-      src: "/GymPhoto-1.jpg",
+      src: photo1,
       alt: "Gym photo 1",
     },
     {
-      src: "/GymPhoto-2.jpg",
+      src: photo2,
       alt: "Gym photo 2",
     },
     {
-      src: "/GymPhoto-3.jpg",
+      src: photo3,
       alt: "Gym photo 3",
     },
     {
-      src: "/GymPhoto-4.jpg",
+      src: photo4,
       alt: "Gym photo 4",
     },
     {
-      src: "/GymPhoto-5.jpg",
+      src: photo5,
       alt: "Gym photo 5",
     },
     {
-      src: "/GymPhoto-6.jpg",
+      src: photo6,
       alt: "Gym photo 6",
     },
   ];
